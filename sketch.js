@@ -55,7 +55,7 @@ function setup() {
 
 function draw() {
   background(180);
-  text("Score: "+ score, 500,50);
+  text("Puntuación: "+ score, 500,50);
   score = score + Math.round(frameCount/60);
   
   if(gameState === PLAY){
